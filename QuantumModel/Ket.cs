@@ -10,8 +10,6 @@ namespace QuantumModel
         protected Complex[] k;
 
         public int Dimension{get ;}
-
-
         public String Label { get; set; } = "X";
 
         public Ket(int dimension)
@@ -106,7 +104,5 @@ namespace QuantumModel
                 }
                 return ans.TrimEnd('|');
         }
-
-
     }
 }
